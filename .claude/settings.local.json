@@ -23,7 +23,8 @@
       "Bash(npx tsc:*)",
       "Read(c:\\Users\\ruudk\\Pictures\\Screenshots/**)",
       "Bash(git rm:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": [],
