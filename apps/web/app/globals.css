@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme defaults (can be overridden per project) */
+:root {
+  --brand: 262 83% 58%; /* HSL for #7c3aed */
+  --bg: 0 0% 100%;
+  --fg: 222 47% 11%;
+  --muted: 214 32% 91%;
+  --font-brand: "Inter";
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg: 222 47% 11%;
+  --fg: 210 40% 98%;
+  --muted: 217 32% 17%;
+}
+
+/* Token helpers */
+.btn {
+  @apply inline-flex h-9 items-center justify-center rounded-md border px-4 text-sm;
+  @apply bg-brand/90 text-white hover:bg-brand;
+}
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}

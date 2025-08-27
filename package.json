@@ -1,0 +1,12 @@
+{
+  "name": "lovable-clone",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  }
+}

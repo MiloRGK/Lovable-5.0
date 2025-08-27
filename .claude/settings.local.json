@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(node:*)",
+      "Bash(pnpm:*)",
+      "Bash(npm install:*)",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__get_project_url",
+      "mcp__supabase__get_anon_key",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__execute_sql",
+      "Bash(curl:*)",
+      "WebFetch(domain:cookbook.openai.com)",
+      "Bash(cmd /c:*)",
+      "Bash(powershell:*)",
+      "mcp__desktop-commander__write_file",
+      "mcp__desktop-commander__create_directory",
+      "mcp__desktop-commander__edit_block",
+      "mcp__desktop-commander__read_file",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(npx tsc:*)",
+      "Read(c:\\Users\\ruudk\\Pictures\\Screenshots/**)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
+}
